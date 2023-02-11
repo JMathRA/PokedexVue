@@ -1,11 +1,11 @@
 ## Projeto criado para a vaga de desenvolvedor Frontend da Copybase
 
-## 📐 Project setup
+## Project setup
 ```
 npm install
 ```
 
-### 🚀 Compiles and hot-reloads for development
+### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
@@ -20,12 +20,12 @@ npm run build
 npm run lint
 ```
 
-## 🛠 Built with
+## Built with
 * [VueJS](https://vuejs.org/)
 * [Vuetify](https://vuetifyjs.com/)
 * [Poké-API](https://pokeapi.co/)
 * [Poké-API Sprites](https://github.com/PokeAPI/sprites)
 
 
-## 👨‍💻 Author
+## Author
 * JOÃO MATHEUS
