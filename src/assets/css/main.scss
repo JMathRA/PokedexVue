@@ -53,7 +53,7 @@ div#app {
 .poke__card {
     position: relative;
     background: url('../images/pokeball-vector-gray-30.png') no-repeat;
-    background-position: 89% -17px;
+    background-position: 88% -17px;
     background-size: 90px;
 }
 .poke__card-id {
@@ -80,16 +80,16 @@ div#app {
     position: relative;
 }
 .bg-pokemon__name {
-    color: #f7f7f7;
+    color: black;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #f7f7f7;
+    -webkit-text-stroke-color: black;
     font-size: 100px;
     font-weight:700;
-    opacity: 0.2;
-    text-transform: uppercase;
+    opacity: 1;
+    text-transform:uppercase;
     position: absolute;
-    left: -49px;
+    left: 0px;
     top: -10px;
 }
 .bg-pokemon__namefadeout {
@@ -104,7 +104,7 @@ div#app {
     color: black;
 }
 .pokemon__information {
-    background: #b2e7e8;
+    background: white;
     padding: 15px;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
@@ -112,12 +112,13 @@ div#app {
 }
 .poke__dialog,
 .gen__dialog {
-    border-top-left-radius: 30px !important;
-    border-top-right-radius: 30px !important;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
     color:black;
 }
 .gen__dialog {
     height: 85%;
+    width: 100%;
     bottom: 0;
     top: unset !important;
     box-shadow: 0px 0px 100px 100px rgba(0,0,0,0.5);
@@ -146,13 +147,13 @@ div#app {
 .generation__card:hover {
     background: url("/img/pokeball-vector-gray-30.8bdc9661.png") no-repeat, #da5b60;
     background-position: 50%;
-    background-size: 200px;
+    background-size: 100px;
     transition: background-color .2s ease, color .2s ease;
     
     
 }
 .generation__card:hover .generation__title {
-    color: #ffffff;
+    color: #000000;
     transition: background-color .2s ease, color .2s ease;
     
 }

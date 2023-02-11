@@ -24,7 +24,7 @@
                     contain
                     :src="this.pokeImage"
                     transition="scale-transition"
-                    width="200"
+                    width="150"
                 />
             </div>
             <div class="pokemon__title">
@@ -45,7 +45,7 @@
         </div>
         <div class="pokemon__information align-center">
             <v-container class="mt-5">
-                <p class="text-h6">Pokédex Data</p>
+                <p class="text-h5">Pokédex Data</p>
                 <div class="pokemon__bases font-weight-medium mt-3">
                     <div class="d-flex justify-space-between body-1 border-bottom">
                         <span>Base Experience</span>
@@ -56,7 +56,7 @@
                         class="d-flex justify-space-between body-1 border-bottom mt-3"
                     >
                         <span>Height</span>
-                        <span>{{ info.height }} dm</span>
+                        <span>{{ info.height / 10}} m</span>
                     </div>
                     <v-divider></v-divider>
                     <div
